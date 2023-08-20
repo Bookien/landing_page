@@ -1,0 +1,46 @@
+.theme-color {
+    color: #e60022;
+}
+
+.image-fit {
+    /* object-fit: contain;
+    height: 200px !important;
+    filter: grayscale(100%);
+    transition: 1s; */
+}
+
+.image-fit:hover {
+    filter: grayscale(0%)
+}
+
+.red {
+    background-color: red;
+}
+
+.company-name {
+    color: #e60022;
+    font-weight: bold;
+}
+
+.list {
+    /* list-style-type: square !important;
+    list-style-position: inside; */
+    /* color: red; */
+}
+
+@media(max-width: 1024px) { /* <== You can change this break point as per your  needs */
+    .reverse-columns {
+      flex-direction: column-reverse;
+      display: flex;
+    }
+  }
+
+.contact a {
+    color: #e60022;
+    font-weight: bold;
+}
+
+nav .button {
+    background-color: #e60022 !important;
+    color:  #fff;
+}
